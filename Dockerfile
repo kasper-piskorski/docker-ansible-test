@@ -20,4 +20,9 @@ ADD run_role.yml /tmp/ansible-roles/run_role.yml
 WORKDIR /tmp/ansible-roles
 
 RUN ansible-playbook run_role.yml -e "ROLE=ontoit-cluster"
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 180b32e7919f18f2f6ca4250256aab148b202b16
 
