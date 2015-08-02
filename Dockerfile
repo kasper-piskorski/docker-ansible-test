@@ -1,7 +1,7 @@
 FROM debian:latest
 
 RUN  apt-get update && \
-     apt-get install -y git software-properties-common && \
+     apt-get install -y bash git nano tar unzip wget software-properties-common && \
 
 #RUN  apt-add-repository -y ppa:ansible/ansible 
 
